@@ -1,0 +1,26 @@
+.main_container {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+
+#btn_cat {
+  margin-top: 35rem;
+  margin-left: -14rem;
+}
+
+#cat,
+img {
+  width: 25rem;
+  height: 30rem;
+  object-fit: cover;
+  border: 1px solid black;
+}
+
+p {
+  display: flex;
+  text-align: center;
+  height: 100vh;
+  justify-content: center;
+}
