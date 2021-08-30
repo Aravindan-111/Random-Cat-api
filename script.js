@@ -6,7 +6,8 @@ btn_cat.addEventListener('click', get_random_cat);
 async function get_random_cat() {
   let a = await fetch('https://random.dog/woof.json');
   let b = await a.json();
+  let alt = 'Cat Image';
   cat.innerHTML = `
-  <img src = "${b.url}">
+  <img src = "${b.url}" alt=${alt}>
   `;
 }
